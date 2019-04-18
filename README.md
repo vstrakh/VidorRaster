@@ -2,6 +2,7 @@
 This is a hardware line rasterizer for Arduino MKR Vidor 4000
 
 This library is a drop-in replacement for original VidorGraphics library.
+
 drawRoundRect and fillRoundRect() primitives are exposed. They were there in original firmware, but were missing from the api.
 
 This fpga image features same code that is used in original VidorGraphics library, but built with free Nios /e softcore intead of original Nios /f, and using hardware rasterizer.
