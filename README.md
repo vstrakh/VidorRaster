@@ -1,7 +1,7 @@
 # VidorRaster
 This is a hardware line rasterizer for Arduino MKR Vidor 4000
 
-This library is a drop-in replacement for original VidorGraphics library.
+This library is a drop-in replacement for original VidorGraphics library, and based on the VidorBitstream project published by the Arduino team.
 
 drawRoundRect and fillRoundRect() primitives are exposed. They were there in original firmware, but were missing from the api.
 
